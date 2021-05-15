@@ -12,10 +12,93 @@ body
     background-size: cover;
 }
 
+#leagueoflegendsbanner
+{
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/LeagueOfLegends/LeagueOfLegendsBanner.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#myheroacademiabanner
+{
+    width: 100%;
+    height: 800px;
+    background-image: url(../img/MyHeroAcademia/MyHeroAcademiaBanner.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#neffexbanner
+{
+    width: 100%;
+    height: 800px;
+    background-image: url(../img/NEFFEX/NEFFEXBanner.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#snakebanner
+{
+    width: 100%;
+    height: 800px;
+    background-image: url(../img/Snake/SnakeBanner.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#theflashbanner
+{
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/TheFlash/TheFlashBanner.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#wellmeetagainbanner
+{
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/WellMeetAgain/WellMeetAgainBanner.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#iframe
+{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+#video
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
 p
 {
     text-indent: 15px;
     text-align: justify;
+}
+
+p a
+{
+    text-decoration: none;
+
+}
+
+p a:hover
+{
+    text-decoration: black underline;
 }
 
 h1
@@ -37,9 +120,45 @@ li a:hover
     font-size: 120%;
 }
 
+td
+{
+    height: 30px;
+}
+
 @media only screen and (max-width: 768px)
 {
-    #ironmanbanner{
+    #ironmanbanner
+    {
+        display: none;
+    }
+
+    #leagueoflegendsbanner
+    {
+        display: none;
+    }
+
+    #myheroacademiabanner
+    {
+        display: none;
+    }
+
+    #neffexbanner
+    {
+        display: none;
+    }
+
+    #snakebanner
+    {
+        display: none;
+    }
+
+    #theflashbanner
+    {
+        display: none;
+    }
+
+    #wellmeetagainbanner
+    {
         display: none;
     }
 }
@@ -54,5 +173,90 @@ li a:hover
     img:hover
     {
        transform: scale(1.2);
+    }
+
+    .scale
+    {
+        transition: transform 0.5s;
+    }
+
+    .scale:hover
+    {
+        transform: scale(1.1);
+    }
+
+    table
+    {
+        transition: transform 0.5s;
+    }
+
+    table:hover
+    {
+        transform: scale(1.05);
+    }
+
+    #thefatrat
+    {
+        font-size: 246%;
+    }
+}
+
+@media only screen and (min-width: 992px)
+{
+    #thefatrat
+    {
+        font-size: 242%;
+    }
+}
+
+@media only screen and (min-width: 1103px)
+{
+    #natasha
+    {
+        font-size: 148%;
+    }
+
+    #thefatrat
+    {
+        font-size: 242%;
+    }
+}
+
+@media only screen and (min-width: 1200px)
+{
+    #natasha
+    {
+        font-size: 150%;
+    }
+
+    #thefatrat
+    {
+        font-size: 250%;
+    }
+}
+
+@media only screen and (max-width: 1290px)
+{
+    #myheroacademiabanner
+    {
+        height: 600px;
+    }
+
+    #snakebanner
+    {
+        height: 600px;
+    }
+}
+
+@media only screen and (max-width: 965px)
+{
+    #myheroacademiabanner
+    {
+        height: 500px;
+    }
+
+    #snakebanner
+    {
+        height: 500px;
     }
 }
