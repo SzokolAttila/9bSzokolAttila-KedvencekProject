@@ -66,6 +66,29 @@ body
     background-size: cover;
 }
 
+#sourcesbanner
+{
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/Sources/SourcesBanner.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#navigationbanner
+{
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/Navigation/NavigationBanner.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#navigation
+{
+    transform: none;
+}
+
 #iframe
 {
     position: relative;
@@ -120,6 +143,17 @@ li a:hover
     font-size: 120%;
 }
 
+.sources:hover
+{
+    text-decoration: white underline;
+    font-size: 120%;
+}
+
+.source
+{
+    list-style-type: none;
+}
+
 td
 {
     height: 30px;
@@ -158,6 +192,16 @@ td
     }
 
     #wellmeetagainbanner
+    {
+        display: none;
+    }
+
+    #sourcesbanner
+    {
+        display: none;
+    }
+
+    #navigationbanner
     {
         display: none;
     }
@@ -246,6 +290,11 @@ td
     {
         height: 600px;
     }
+
+    #navigationbanner
+    {
+        height: 500px;
+    }
 }
 
 @media only screen and (max-width: 965px)
@@ -258,5 +307,10 @@ td
     #snakebanner
     {
         height: 500px;
+    }
+
+    #navigationbanner
+    {
+        height: 400px;
     }
 }
